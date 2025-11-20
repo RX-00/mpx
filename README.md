@@ -37,6 +37,12 @@ The solver is wrapped by the `MPCControllerWrapper` class, and all the settings 
 
 ## Installation
 
+### Clone the repo
+```
+git clone git@github.com:iit-DLSLab/mpx.git
+cd mpx && git submodule update --init --recursive
+```
+
 ### Set Up Conda Environment
 Create and activate the conda environment:
 ```
