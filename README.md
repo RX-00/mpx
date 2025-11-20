@@ -61,7 +61,9 @@ pip install -e .
 ```
 conda activate mpx_env
 python mpx/examples/mjx_quad.py
+## Use the keyboard's arrows to control the robot ##
 ```
+
 > **Note:**  
 The first time running the script it can take more than a minute to JIT the solver
 
