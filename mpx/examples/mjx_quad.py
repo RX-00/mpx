@@ -21,7 +21,7 @@ from timeit import default_timer as timer
 # jax.default_device(gpu_device)
  
 # Define robot and scene parameters
-robot_name = "aliengo"   # "aliengo", "mini_cheetah", "go2", "hyqreal", ...
+robot_name = "go2"   # "aliengo", "mini_cheetah", "go2", "hyqreal", ...
 scene_name = "random_boxes"
 robot_feet_geom_names = dict(FR='FR',FL='FL', RR='RR' , RL='RL')
 robot_leg_joints = dict(FR=['FR_hip_joint', 'FR_thigh_joint', 'FR_calf_joint', ],

@@ -20,7 +20,7 @@ import numpy as np
 from gym_quadruped.utils.mujoco.visual import render_sphere , render_vector
 
 
-robot_name = "aliengo"   # "aliengo", "mini_cheetah", "go2", "hyqreal", ...
+robot_name = "go2"   # "aliengo", "mini_cheetah", "go2", "hyqreal", ...
 scene_name = "flat"
 robot_feet_geom_names = dict(FL='FL',FR='FR', RL='RL', RR='RR' )
 robot_leg_joints = dict(FL=['FL_hip_joint', 'FL_thigh_joint', 'FL_calf_joint', ],
